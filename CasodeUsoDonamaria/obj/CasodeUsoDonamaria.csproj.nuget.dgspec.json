@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj": {}
+    "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj": {
+    "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj",
+        "projectUniqueName": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj",
         "projectName": "CasodeUsoDonamaria",
-        "projectPath": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj",
+        "projectPath": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj",
         "packagesPath": "C:\\Users\\Maurilio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\obj\\",
+        "outputPath": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

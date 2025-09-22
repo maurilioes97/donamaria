@@ -1,3 +1,5 @@
+using CasodeUsoDonamaria.Model;
+
 namespace CasodeUsoDonamaria
 {
     internal static class Program
@@ -11,7 +13,19 @@ namespace CasodeUsoDonamaria
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new FormConsultarReceita());
+
+            Ingrediente.Ingredientes = new List<Ingrediente>();
+            
+            for (int i = 1; i < 11; i++)
+            {
+                Ingrediente Ingrediente = new Ingrediente();
+                Ingrediente.Id = i;
+                Ingrediente.Nome = $"Ingrediente {i}";
+                Ingrediente.Descricao = $"Descrição {i}";
+                Ingrediente.Ingredientes.Add(Ingrediente);
+            }
+
+            Application.Run(new FormCadastrarIngrediente());
         }
     }
 }

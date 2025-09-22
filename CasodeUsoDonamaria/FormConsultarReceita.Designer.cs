@@ -33,6 +33,7 @@
             textBox1 = new TextBox();
             button1 = new Button();
             dataGridView1 = new DataGridView();
+            Column3 = new DataGridViewTextBoxColumn();
             nomedareceita = new DataGridViewTextBoxColumn();
             descricao = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewButtonColumn();
@@ -43,26 +44,29 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(25, 23);
+            label1.Location = new Point(20, 18);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(241, 25);
+            label1.Size = new Size(207, 20);
             label1.TabIndex = 0;
             label1.Text = "Critérios para localizar receita";
             // 
             // textBox1
             // 
             textBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            textBox1.Location = new Point(25, 51);
+            textBox1.Location = new Point(20, 41);
+            textBox1.Margin = new Padding(2);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(965, 31);
+            textBox1.Size = new Size(1406, 27);
             textBox1.TabIndex = 1;
             // 
             // button1
             // 
             button1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            button1.Location = new Point(25, 88);
+            button1.Location = new Point(20, 70);
+            button1.Margin = new Padding(2);
             button1.Name = "button1";
-            button1.Size = new Size(965, 41);
+            button1.Size = new Size(1405, 33);
             button1.TabIndex = 2;
             button1.Text = "Localizar receita";
             button1.UseVisualStyleBackColor = true;
@@ -71,13 +75,21 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { nomedareceita, descricao, Column2, Column1 });
-            dataGridView1.Location = new Point(25, 146);
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column3, nomedareceita, descricao, Column2, Column1 });
+            dataGridView1.Location = new Point(20, 117);
+            dataGridView1.Margin = new Padding(2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(965, 327);
+            dataGridView1.Size = new Size(1406, 479);
             dataGridView1.TabIndex = 3;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // Column3
+            // 
+            Column3.HeaderText = "Foto";
+            Column3.MinimumWidth = 6;
+            Column3.Name = "Column3";
+            Column3.Width = 125;
             // 
             // nomedareceita
             // 
@@ -114,13 +126,14 @@
             // 
             // FormConsultarReceita
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1020, 485);
+            ClientSize = new Size(1449, 607);
             Controls.Add(dataGridView1);
             Controls.Add(button1);
             Controls.Add(textBox1);
             Controls.Add(label1);
+            Margin = new Padding(2);
             Name = "FormConsultarReceita";
             Text = "Consultar receitas";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
@@ -134,6 +147,7 @@
         private TextBox textBox1;
         private Button button1;
         private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn Column3;
         private DataGridViewTextBoxColumn nomedareceita;
         private DataGridViewTextBoxColumn descricao;
         private DataGridViewButtonColumn Column2;

@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace CasodeUsoDonamaria
 {
-    public partial class FormMenu : Form
+    public partial class FormPrincipal : Form
     {
-        public FormMenu()
+        public FormPrincipal()
         {
             InitializeComponent();
+        }
+
+        private void MnuIngredientes_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

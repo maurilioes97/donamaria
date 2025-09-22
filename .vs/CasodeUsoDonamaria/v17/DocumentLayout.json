@@ -1,58 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\",
+  "WorkspaceRootPath": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\casodeusodonamaria\\casodeusodonamaria\\casodeusodonamaria\\casodeusodonamaria.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\casodeusodonamaria.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\pastadmaria\\casodeusodonamaria\\casodeusodonamaria\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\casodeusodonamaria\\casodeusodonamaria\\casodeusodonamaria\\model\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\model\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\casodeusodonamaria\\casodeusodonamaria\\casodeusodonamaria\\model\\tipocozinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\model\\tipocozinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\casodeusodonamaria\\casodeusodonamaria\\casodeusodonamaria\\model\\ingredientereceita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\model\\ingredientereceita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\casodeusodonamaria\\casodeusodonamaria\\casodeusodonamaria\\model\\receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\model\\receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\casodeusodonamaria\\formcadastraringrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\formcadastraringrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\casodeusodonamaria\\formcadastrarreceita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\casodeusodonamaria\\formcadastrarreceita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\formcadastrarreceita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\casodeusodonamaria\\casodeusodonamaria\\casodeusodonamaria\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\casodeusodonamaria\\formdetalhesreceitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\formdetalhesreceitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\casodeusodonamaria\\formconsultarreceita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\casodeusodonamaria\\formconsultarreceita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\formconsultarreceita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\casodeusodonamaria\\formcadastrarcozinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\pastadmaria\\casodeusodonamaria\\casodeusodonamaria\\model\\ingredientereceita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\model\\ingredientereceita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\pastadmaria\\casodeusodonamaria\\casodeusodonamaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\pastadmaria\\casodeusodonamaria\\casodeusodonamaria\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\pastadmaria\\casodeusodonamaria\\casodeusodonamaria\\formprincipal.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\formprincipal.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\casodeusodonamaria\\formdetalhesreceitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\formdetalhesreceitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\pastadmaria\\casodeusodonamaria\\casodeusodonamaria\\model\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\model\\ingrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\pastadmaria\\casodeusodonamaria\\casodeusodonamaria\\formcadastraringrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\formcadastraringrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\casodeusodonamaria\\formcadastraringrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\formcadastraringrediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\pastadmaria\\casodeusodonamaria\\casodeusodonamaria\\model\\receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\model\\receita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\casodeusodonamaria\\formcadastrarcozinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\formcadastrarcozinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\casodeusodonamaria\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\pastadmaria\\casodeusodonamaria\\casodeusodonamaria\\formcadastraringrediente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\formcadastraringrediente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\casodeusodonamaria\\casodeusodonamaria\\casodeusodonamaria\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\pastadmaria\\casodeusodonamaria\\casodeusodonamaria\\formcadastraringrediente.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\formcadastraringrediente.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\pastadmaria\\casodeusodonamaria\\casodeusodonamaria\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\pastadmaria\\casodeusodonamaria\\casodeusodonamaria\\model\\tipocozinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\model\\tipocozinha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\pastadmaria\\casodeusodonamaria\\casodeusodonamaria\\casodeusodonamaria.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\casodeusodonamaria.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|c:\\users\\maurilio\\downloads\\casodeusodonamaria-20250919t232029z-1-001\\pastadmaria\\casodeusodonamaria\\casodeusodonamaria\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{1EABE1BA-775B-4E61-899D-14A2C959AC55}|CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj|solutionrelative:casodeusodonamaria\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,154 +94,226 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IngredienteReceita.cs",
-              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Model\\IngredienteReceita.cs",
-              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\Model\\IngredienteReceita.cs",
-              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Model\\IngredienteReceita.cs",
-              "RelativeToolTip": "CasodeUsoDonamaria\\Model\\IngredienteReceita.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAywA8AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T01:34:17.033Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Ingrediente.cs",
-              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Model\\Ingrediente.cs",
-              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\Model\\Ingrediente.cs",
-              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Model\\Ingrediente.cs",
-              "RelativeToolTip": "CasodeUsoDonamaria\\Model\\Ingrediente.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAcwBoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T01:33:40.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\Properties\\Resources.resx",
-              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Properties\\Resources.resx",
-              "RelativeToolTip": "CasodeUsoDonamaria\\Properties\\Resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-09-01T01:31:16.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FormDetalhesReceitas.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormDetalhesReceitas.cs",
-              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\FormDetalhesReceitas.cs",
-              "ToolTip": "C:\\Users\\Maurilio\\Desktop\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormDetalhesReceitas.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormDetalhesReceitas.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T23:49:27.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormCadastrarReceita.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarReceita.cs",
+              "Title": "FormCadastrarReceita.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarReceita.cs",
               "RelativeDocumentMoniker": "CasodeUsoDonamaria\\FormCadastrarReceita.cs",
-              "ToolTip": "C:\\Users\\Maurilio\\Desktop\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarReceita.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarReceita.cs [Design]",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarReceita.cs [Projeto]",
+              "RelativeToolTip": "CasodeUsoDonamaria\\FormCadastrarReceita.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-20T00:05:55.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CasodeUsoDonamaria.csproj",
-              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj",
-              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj",
-              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj",
-              "RelativeToolTip": "CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-19T23:50:26.946Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Program.cs",
+              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\Program.cs",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Program.cs",
+              "RelativeToolTip": "CasodeUsoDonamaria\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T15:49:56.122Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Receita.cs",
-              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Model\\Receita.cs",
-              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\Model\\Receita.cs",
-              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Model\\Receita.cs",
-              "RelativeToolTip": "CasodeUsoDonamaria\\Model\\Receita.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAA3wB8AAAAtAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IngredienteReceita.cs",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Model\\IngredienteReceita.cs",
+              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\Model\\IngredienteReceita.cs",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Model\\IngredienteReceita.cs",
+              "RelativeToolTip": "CasodeUsoDonamaria\\Model\\IngredienteReceita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T01:35:08.677Z"
+              "WhenOpened": "2025-09-01T01:34:17.033Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TipoCozinha.cs",
-              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Model\\TipoCozinha.cs",
-              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\Model\\TipoCozinha.cs",
-              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Model\\TipoCozinha.cs",
-              "RelativeToolTip": "CasodeUsoDonamaria\\Model\\TipoCozinha.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAUwCYAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T01:35:24.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormConsultarReceita.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormConsultarReceita.cs",
+              "Title": "FormConsultarReceita.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormConsultarReceita.cs",
               "RelativeDocumentMoniker": "CasodeUsoDonamaria\\FormConsultarReceita.cs",
-              "ToolTip": "C:\\Users\\Maurilio\\Desktop\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormConsultarReceita.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormConsultarReceita.cs [Design]",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormConsultarReceita.cs [Projeto]",
+              "RelativeToolTip": "CasodeUsoDonamaria\\FormConsultarReceita.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T23:48:58.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FormCadastrarCozinha.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarCozinha.cs",
-              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\FormCadastrarCozinha.cs",
-              "ToolTip": "C:\\Users\\Maurilio\\Desktop\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarCozinha.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarCozinha.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "FormPrincipal.resx",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormPrincipal.resx",
+              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\FormPrincipal.resx",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormPrincipal.resx",
+              "RelativeToolTip": "CasodeUsoDonamaria\\FormPrincipal.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-09-20T16:38:45.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormPrincipal.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormPrincipal.cs [Projeto]",
+              "RelativeToolTip": "CasodeUsoDonamaria\\FormPrincipal.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T23:50:02.272Z"
+              "WhenOpened": "2025-09-20T16:37:01.891Z",
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "FormCadastrarIngrediente.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarIngrediente.cs",
+              "Title": "FormPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormPrincipal.Designer.cs",
+              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\FormPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormPrincipal.Designer.cs",
+              "RelativeToolTip": "CasodeUsoDonamaria\\FormPrincipal.Designer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:43:18.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormDetalhesReceitas.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormDetalhesReceitas.cs",
+              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\FormDetalhesReceitas.cs",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormDetalhesReceitas.cs [Projeto]",
+              "RelativeToolTip": "CasodeUsoDonamaria\\FormDetalhesReceitas.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T23:49:27.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ingrediente.cs",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Model\\Ingrediente.cs",
+              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\Model\\Ingrediente.cs",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Model\\Ingrediente.cs",
+              "RelativeToolTip": "CasodeUsoDonamaria\\Model\\Ingrediente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T01:33:40.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormCadastrarIngrediente.cs",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarIngrediente.cs",
               "RelativeDocumentMoniker": "CasodeUsoDonamaria\\FormCadastrarIngrediente.cs",
-              "ToolTip": "C:\\Users\\Maurilio\\Desktop\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarIngrediente.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarIngrediente.cs [Design]",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarIngrediente.cs",
+              "RelativeToolTip": "CasodeUsoDonamaria\\FormCadastrarIngrediente.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAswF0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:26:00.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormCadastrarIngrediente.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarIngrediente.cs",
+              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\FormCadastrarIngrediente.cs",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarIngrediente.cs [Projeto]",
+              "RelativeToolTip": "CasodeUsoDonamaria\\FormCadastrarIngrediente.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-19T23:50:38.393Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "FormMenu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormMenu.cs",
-              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\FormMenu.cs",
-              "ToolTip": "C:\\Users\\Maurilio\\Desktop\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormMenu.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormMenu.cs [Design]",
+              "Title": "Receita.cs",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Model\\Receita.cs",
+              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\Model\\Receita.cs",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Model\\Receita.cs",
+              "RelativeToolTip": "CasodeUsoDonamaria\\Model\\Receita.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T00:07:14.885Z"
+              "WhenOpened": "2025-09-01T01:35:08.677Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "FormMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormMenu.cs",
-              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\FormMenu.cs",
-              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\CasodeUsoDonaMaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormMenu.cs",
-              "RelativeToolTip": "CasodeUsoDonamaria\\FormMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Title": "FormCadastrarCozinha.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarCozinha.cs",
+              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\FormCadastrarCozinha.cs",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarCozinha.cs [Projeto]",
+              "RelativeToolTip": "CasodeUsoDonamaria\\FormCadastrarCozinha.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-20T00:08:54.409Z"
+              "WhenOpened": "2025-08-19T23:50:02.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormCadastrarIngrediente.resx",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarIngrediente.resx",
+              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\FormCadastrarIngrediente.resx",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarIngrediente.resx",
+              "RelativeToolTip": "CasodeUsoDonamaria\\FormCadastrarIngrediente.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-09-20T16:28:48.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormCadastrarIngrediente.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarIngrediente.Designer.cs",
+              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\FormCadastrarIngrediente.Designer.cs",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormCadastrarIngrediente.Designer.cs",
+              "RelativeToolTip": "CasodeUsoDonamaria\\FormCadastrarIngrediente.Designer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:28:49.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\FormPrincipal.cs",
+              "RelativeToolTip": "CasodeUsoDonamaria\\FormPrincipal.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T16:37:06.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TipoCozinha.cs",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Model\\TipoCozinha.cs",
+              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\Model\\TipoCozinha.cs",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Model\\TipoCozinha.cs",
+              "RelativeToolTip": "CasodeUsoDonamaria\\Model\\TipoCozinha.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T01:35:24.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CasodeUsoDonamaria.csproj",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj",
+              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj",
+              "RelativeToolTip": "CasodeUsoDonamaria\\CasodeUsoDonamaria.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-19T23:50:26.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "CasodeUsoDonamaria\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\Maurilio\\Downloads\\CasodeUsoDonaMaria-20250919T232029Z-1-001\\PastaDmaria\\CasodeUsoDonamaria\\CasodeUsoDonamaria\\Properties\\Resources.resx",
+              "RelativeToolTip": "CasodeUsoDonamaria\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-09-01T01:31:16.025Z"
             }
           ]
         }
