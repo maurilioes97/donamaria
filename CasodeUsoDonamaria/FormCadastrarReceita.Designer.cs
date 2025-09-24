@@ -28,335 +28,246 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            dataGridView1 = new DataGridView();
-            button1 = new Button();
-            Column1 = new DataGridViewTextBoxColumn();
-            Column2 = new DataGridViewTextBoxColumn();
-            Column3 = new DataGridViewTextBoxColumn();
-            Column4 = new DataGridViewButtonColumn();
-            dataGridView2 = new DataGridView();
-            button2 = new Button();
-            label5 = new Label();
-            Column5 = new DataGridViewTextBoxColumn();
-            Column6 = new DataGridViewButtonColumn();
+            Lbl_codigo = new Label();
+            Lbl_nome = new Label();
+            Lbl_ingredientes = new Label();
+            txtCodigo = new TextBox();
+            txtNome = new TextBox();
+            Btn_salvar = new Button();
             label6 = new Label();
-            textBox4 = new TextBox();
-            button3 = new Button();
-            pictureBox1 = new PictureBox();
-            textBox5 = new TextBox();
-            label4 = new Label();
-            button4 = new Button();
-            dataGridView3 = new DataGridView();
-            Column7 = new DataGridViewTextBoxColumn();
-            Column8 = new DataGridViewTextBoxColumn();
-            Column9 = new DataGridViewTextBoxColumn();
-            Column10 = new DataGridViewCheckBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
+            Txt_modopreparo = new TextBox();
+            Btn_imagem = new Button();
+            picImagem = new PictureBox();
+            txtIngredientes = new TextBox();
+            datagridview = new DataGridView();
+            datagridview_imagem = new DataGridViewImageColumn();
+            datagridview_codigo = new DataGridViewTextBoxColumn();
+            datagridview_nome = new DataGridViewTextBoxColumn();
+            datagridview_ingredientes = new DataGridViewTextBoxColumn();
+            datagridview_modopreparo = new DataGridViewTextBoxColumn();
+            datagridview_alterar = new DataGridViewButtonColumn();
+            datagridview_excluir = new DataGridViewButtonColumn();
+            ((System.ComponentModel.ISupportInitialize)picImagem).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)datagridview).BeginInit();
             SuspendLayout();
             // 
-            // label1
+            // Lbl_codigo
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(3, -2);
-            label1.Name = "label1";
-            label1.Size = new Size(71, 25);
-            label1.TabIndex = 0;
-            label1.Text = "Código";
+            Lbl_codigo.AutoSize = true;
+            Lbl_codigo.Location = new Point(10, 7);
+            Lbl_codigo.Margin = new Padding(2, 0, 2, 0);
+            Lbl_codigo.Name = "Lbl_codigo";
+            Lbl_codigo.Size = new Size(46, 15);
+            Lbl_codigo.TabIndex = 0;
+            Lbl_codigo.Text = "Código";
             // 
-            // label2
+            // Lbl_nome
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(156, -2);
-            label2.Name = "label2";
-            label2.Size = new Size(61, 25);
-            label2.TabIndex = 1;
-            label2.Text = "Nome";
+            Lbl_nome.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            Lbl_nome.AutoSize = true;
+            Lbl_nome.Location = new Point(126, 7);
+            Lbl_nome.Margin = new Padding(2, 0, 2, 0);
+            Lbl_nome.Name = "Lbl_nome";
+            Lbl_nome.Size = new Size(40, 15);
+            Lbl_nome.TabIndex = 1;
+            Lbl_nome.Text = "Nome";
             // 
-            // label3
+            // Lbl_ingredientes
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(3, 60);
-            label3.Name = "label3";
-            label3.Size = new Size(102, 25);
-            label3.TabIndex = 2;
-            label3.Text = "Ingrediente";
+            Lbl_ingredientes.AutoSize = true;
+            Lbl_ingredientes.Location = new Point(10, 52);
+            Lbl_ingredientes.Margin = new Padding(2, 0, 2, 0);
+            Lbl_ingredientes.Name = "Lbl_ingredientes";
+            Lbl_ingredientes.Size = new Size(72, 15);
+            Lbl_ingredientes.TabIndex = 2;
+            Lbl_ingredientes.Text = "Ingredientes";
             // 
-            // textBox1
+            // txtCodigo
             // 
-            textBox1.Location = new Point(3, 26);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(150, 31);
-            textBox1.TabIndex = 3;
+            txtCodigo.Location = new Point(10, 23);
+            txtCodigo.Margin = new Padding(2);
+            txtCodigo.Name = "txtCodigo";
+            txtCodigo.Size = new Size(106, 23);
+            txtCodigo.TabIndex = 3;
             // 
-            // textBox2
+            // txtNome
             // 
-            textBox2.Location = new Point(156, 26);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(464, 31);
-            textBox2.TabIndex = 4;
+            txtNome.Location = new Point(126, 23);
+            txtNome.Margin = new Padding(2);
+            txtNome.Name = "txtNome";
+            txtNome.Size = new Size(652, 23);
+            txtNome.TabIndex = 4;
             // 
-            // textBox3
+            // Btn_salvar
             // 
-            textBox3.Location = new Point(3, 88);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(499, 31);
-            textBox3.TabIndex = 5;
-            // 
-            // dataGridView1
-            // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4 });
-            dataGridView1.Location = new Point(3, 125);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(617, 159);
-            dataGridView1.TabIndex = 6;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(508, 86);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 34);
-            button1.TabIndex = 7;
-            button1.Text = "Pesquisar";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // Column1
-            // 
-            Column1.HeaderText = "Código";
-            Column1.MinimumWidth = 8;
-            Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            Column2.HeaderText = "Nome";
-            Column2.MinimumWidth = 8;
-            Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            Column3.HeaderText = "Detalhes";
-            Column3.MinimumWidth = 8;
-            Column3.Name = "Column3";
-            Column3.Width = 250;
-            // 
-            // Column4
-            // 
-            Column4.HeaderText = "Adicionar";
-            Column4.MinimumWidth = 8;
-            Column4.Name = "Column4";
-            // 
-            // dataGridView2
-            // 
-            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView2.Columns.AddRange(new DataGridViewColumn[] { Column5, Column6 });
-            dataGridView2.Location = new Point(3, 315);
-            dataGridView2.Name = "dataGridView2";
-            dataGridView2.RowHeadersWidth = 62;
-            dataGridView2.Size = new Size(617, 152);
-            dataGridView2.TabIndex = 8;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(3, 595);
-            button2.Name = "button2";
-            button2.Size = new Size(1118, 45);
-            button2.TabIndex = 10;
-            button2.Text = "Salvar";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(0, 287);
-            label5.Name = "label5";
-            label5.Size = new Size(191, 25);
-            label5.TabIndex = 11;
-            label5.Text = "Ingredientes da receita";
-            // 
-            // Column5
-            // 
-            Column5.HeaderText = "Nome";
-            Column5.MinimumWidth = 8;
-            Column5.Name = "Column5";
-            Column5.Width = 150;
-            // 
-            // Column6
-            // 
-            Column6.HeaderText = "Excluir";
-            Column6.MinimumWidth = 8;
-            Column6.Name = "Column6";
-            Column6.Width = 150;
+            Btn_salvar.Location = new Point(10, 248);
+            Btn_salvar.Margin = new Padding(2);
+            Btn_salvar.Name = "Btn_salvar";
+            Btn_salvar.Size = new Size(768, 27);
+            Btn_salvar.TabIndex = 10;
+            Btn_salvar.Text = "Salvar";
+            Btn_salvar.UseVisualStyleBackColor = true;
+            Btn_salvar.Click += Btn_salvar_Click;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(12, 470);
+            label6.Location = new Point(10, 125);
+            label6.Margin = new Padding(2, 0, 2, 0);
             label6.Name = "label6";
-            label6.Size = new Size(153, 25);
+            label6.Size = new Size(99, 15);
             label6.TabIndex = 12;
             label6.Text = "Modo de Preparo";
             // 
-            // textBox4
+            // Txt_modopreparo
             // 
-            textBox4.Location = new Point(3, 498);
-            textBox4.Multiline = true;
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(1118, 91);
-            textBox4.TabIndex = 13;
+            Txt_modopreparo.Location = new Point(10, 142);
+            Txt_modopreparo.Margin = new Padding(2);
+            Txt_modopreparo.Multiline = true;
+            Txt_modopreparo.Name = "Txt_modopreparo";
+            Txt_modopreparo.Size = new Size(448, 84);
+            Txt_modopreparo.TabIndex = 13;
             // 
-            // button3
+            // Btn_imagem
             // 
-            button3.Location = new Point(635, 235);
-            button3.Name = "button3";
-            button3.Size = new Size(271, 35);
-            button3.TabIndex = 14;
-            button3.Text = "Carregar imagem da receita...";
-            button3.UseVisualStyleBackColor = true;
+            Btn_imagem.Location = new Point(526, 214);
+            Btn_imagem.Margin = new Padding(2);
+            Btn_imagem.Name = "Btn_imagem";
+            Btn_imagem.Size = new Size(219, 30);
+            Btn_imagem.TabIndex = 14;
+            Btn_imagem.Text = "Carregar imagem da receita...";
+            Btn_imagem.UseVisualStyleBackColor = true;
+            Btn_imagem.Click += Btn_imagem_Click;
             // 
-            // pictureBox1
+            // picImagem
             // 
-            pictureBox1.Location = new Point(635, 276);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(317, 191);
-            pictureBox1.TabIndex = 16;
-            pictureBox1.TabStop = false;
+            picImagem.Location = new Point(512, 68);
+            picImagem.Margin = new Padding(2);
+            picImagem.Name = "picImagem";
+            picImagem.Size = new Size(243, 128);
+            picImagem.TabIndex = 16;
+            picImagem.TabStop = false;
             // 
-            // textBox5
+            // txtIngredientes
             // 
-            textBox5.Location = new Point(635, 27);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(301, 31);
-            textBox5.TabIndex = 17;
+            txtIngredientes.Location = new Point(10, 68);
+            txtIngredientes.Margin = new Padding(2);
+            txtIngredientes.Multiline = true;
+            txtIngredientes.Name = "txtIngredientes";
+            txtIngredientes.Size = new Size(448, 46);
+            txtIngredientes.TabIndex = 21;
             // 
-            // label4
+            // datagridview
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(635, -2);
-            label4.Name = "label4";
-            label4.Size = new Size(140, 25);
-            label4.TabIndex = 18;
-            label4.Text = "Tipo de Cozinha";
+            datagridview.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            datagridview.Columns.AddRange(new DataGridViewColumn[] { datagridview_imagem, datagridview_codigo, datagridview_nome, datagridview_ingredientes, datagridview_modopreparo, datagridview_alterar, datagridview_excluir });
+            datagridview.Location = new Point(10, 288);
+            datagridview.Margin = new Padding(2);
+            datagridview.Name = "datagridview";
+            datagridview.RowHeadersVisible = false;
+            datagridview.RowHeadersWidth = 62;
+            datagridview.Size = new Size(835, 209);
+            datagridview.TabIndex = 24;
+            datagridview.CellClick += datagridview_CellClick;
             // 
-            // button4
+            // datagridview_imagem
             // 
-            button4.Location = new Point(942, 25);
-            button4.Name = "button4";
-            button4.Size = new Size(112, 34);
-            button4.TabIndex = 19;
-            button4.Text = "Pesquisar";
-            button4.UseVisualStyleBackColor = true;
+            datagridview_imagem.HeaderText = "Imagem";
+            datagridview_imagem.MinimumWidth = 6;
+            datagridview_imagem.Name = "datagridview_imagem";
+            datagridview_imagem.Width = 125;
             // 
-            // dataGridView3
+            // datagridview_codigo
             // 
-            dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView3.Columns.AddRange(new DataGridViewColumn[] { Column7, Column8, Column9, Column10 });
-            dataGridView3.Location = new Point(635, 65);
-            dataGridView3.Name = "dataGridView3";
-            dataGridView3.RowHeadersWidth = 62;
-            dataGridView3.Size = new Size(486, 164);
-            dataGridView3.TabIndex = 20;
+            datagridview_codigo.HeaderText = "Código";
+            datagridview_codigo.MinimumWidth = 8;
+            datagridview_codigo.Name = "datagridview_codigo";
+            datagridview_codigo.Width = 80;
             // 
-            // Column7
+            // datagridview_nome
             // 
-            Column7.HeaderText = "Código";
-            Column7.MinimumWidth = 8;
-            Column7.Name = "Column7";
-            Column7.Width = 80;
+            datagridview_nome.HeaderText = "Nome";
+            datagridview_nome.MinimumWidth = 8;
+            datagridview_nome.Name = "datagridview_nome";
+            datagridview_nome.Width = 125;
             // 
-            // Column8
+            // datagridview_ingredientes
             // 
-            Column8.HeaderText = "Nome";
-            Column8.MinimumWidth = 8;
-            Column8.Name = "Column8";
+            datagridview_ingredientes.HeaderText = "Ingredientes";
+            datagridview_ingredientes.MinimumWidth = 6;
+            datagridview_ingredientes.Name = "datagridview_ingredientes";
+            datagridview_ingredientes.Width = 125;
             // 
-            // Column9
+            // datagridview_modopreparo
             // 
-            Column9.HeaderText = "Detalhes";
-            Column9.MinimumWidth = 8;
-            Column9.Name = "Column9";
-            Column9.Width = 200;
+            datagridview_modopreparo.HeaderText = "Modo de preparo";
+            datagridview_modopreparo.MinimumWidth = 6;
+            datagridview_modopreparo.Name = "datagridview_modopreparo";
+            datagridview_modopreparo.Width = 125;
             // 
-            // Column10
+            // datagridview_alterar
             // 
-            Column10.HeaderText = "";
-            Column10.MinimumWidth = 8;
-            Column10.Name = "Column10";
-            Column10.Width = 40;
+            datagridview_alterar.HeaderText = "Alterar";
+            datagridview_alterar.MinimumWidth = 6;
+            datagridview_alterar.Name = "datagridview_alterar";
+            datagridview_alterar.Resizable = DataGridViewTriState.True;
+            datagridview_alterar.SortMode = DataGridViewColumnSortMode.Automatic;
+            datagridview_alterar.Width = 125;
+            // 
+            // datagridview_excluir
+            // 
+            datagridview_excluir.HeaderText = "Excluir";
+            datagridview_excluir.MinimumWidth = 6;
+            datagridview_excluir.Name = "datagridview_excluir";
+            datagridview_excluir.Width = 125;
             // 
             // FormCadastrarReceita
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1125, 640);
-            Controls.Add(dataGridView3);
-            Controls.Add(button4);
-            Controls.Add(label4);
-            Controls.Add(textBox5);
-            Controls.Add(pictureBox1);
-            Controls.Add(button3);
-            Controls.Add(textBox4);
+            ClientSize = new Size(947, 499);
+            Controls.Add(datagridview);
+            Controls.Add(txtIngredientes);
+            Controls.Add(picImagem);
+            Controls.Add(Btn_imagem);
+            Controls.Add(Txt_modopreparo);
             Controls.Add(label6);
-            Controls.Add(label5);
-            Controls.Add(button2);
-            Controls.Add(dataGridView2);
-            Controls.Add(button1);
-            Controls.Add(dataGridView1);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            Controls.Add(Btn_salvar);
+            Controls.Add(txtNome);
+            Controls.Add(txtCodigo);
+            Controls.Add(Lbl_ingredientes);
+            Controls.Add(Lbl_nome);
+            Controls.Add(Lbl_codigo);
+            Margin = new Padding(2);
             Name = "FormCadastrarReceita";
             Text = "Cadastrar Receita";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)dataGridView3).EndInit();
+            Load += FormCadastrarReceita_Load;
+            ((System.ComponentModel.ISupportInitialize)picImagem).EndInit();
+            ((System.ComponentModel.ISupportInitialize)datagridview).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private DataGridView dataGridView1;
-        private Button button1;
-        private DataGridViewTextBoxColumn Column1;
-        private DataGridViewTextBoxColumn Column2;
-        private DataGridViewTextBoxColumn Column3;
-        private DataGridViewButtonColumn Column4;
-        private DataGridView dataGridView2;
-        private Button button2;
-        private Label label5;
-        private DataGridViewTextBoxColumn Column5;
-        private DataGridViewButtonColumn Column6;
+        private Label Lbl_codigo;
+        private Label Lbl_nome;
+        private Label Lbl_ingredientes;
+        private TextBox txtCodigo;
+        private TextBox txtNome;
+        private Button Btn_salvar;
         private Label label6;
-        private TextBox textBox4;
-        private Button button3;
-        private PictureBox pictureBox1;
-        private TextBox textBox5;
-        private Label label4;
-        private Button button4;
-        private DataGridView dataGridView3;
-        private DataGridViewTextBoxColumn Column7;
-        private DataGridViewTextBoxColumn Column8;
-        private DataGridViewTextBoxColumn Column9;
-        private DataGridViewCheckBoxColumn Column10;
+        private TextBox Txt_modopreparo;
+        private Button Btn_imagem;
+        private PictureBox picImagem;
+        private TextBox txtIngredientes;
+        private DataGridView datagridview;
+        private DataGridViewImageColumn datagridview_imagem;
+        private DataGridViewTextBoxColumn datagridview_codigo;
+        private DataGridViewTextBoxColumn datagridview_nome;
+        private DataGridViewTextBoxColumn datagridview_ingredientes;
+        private DataGridViewTextBoxColumn datagridview_modopreparo;
+        private DataGridViewButtonColumn datagridview_alterar;
+        private DataGridViewButtonColumn datagridview_excluir;
     }
 }
