@@ -18,6 +18,19 @@ namespace CasodeUsoDonamaria
             TipoCozinha.TipoCozinhas = new List<TipoCozinha>();
 
             Application.Run(new FormMenu());
+
+            Ingrediente.Ingredientes = new List<Ingrediente>();
+            
+            for (int i = 1; i < 11; i++)
+            {
+                Ingrediente Ingrediente = new Ingrediente();
+                Ingrediente.Id = i;
+                Ingrediente.Nome = $"Ingrediente {i}";
+                Ingrediente.Descricao = $"Descri��o {i}";
+                Ingrediente.Ingredientes.Add(Ingrediente);
+            }
+
+            Application.Run(new FormCadastrarIngrediente());
         }
     }
 }

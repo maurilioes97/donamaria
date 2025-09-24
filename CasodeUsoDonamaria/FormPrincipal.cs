@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,18 +10,15 @@ using System.Windows.Forms;
 
 namespace CasodeUsoDonamaria
 {
-    public partial class FormMenu : Form
+    public partial class FormPrincipal : Form
     {
-        public FormMenu()
+        public FormPrincipal()
         {
             InitializeComponent();
             this.IsMdiContainer = true;
-
         }
 
-        /* 
-         função genérica para abrir um formulário único dentro do MDI container.
-        */
+        /* função genérica para abrir um formulário único dentro do MDI container. */
         private void AbrirFormularioUnico<T>() where T : Form, new()
         {
             T? formExistente = Application.OpenForms.OfType<T>().FirstOrDefault();
@@ -39,9 +36,8 @@ namespace CasodeUsoDonamaria
             }
         }
 
-        private void cadastrarIngredienteToolStripMenuItem_Click(object sender, EventArgs e)
+        private void MnuIngredientes_Click(object sender, EventArgs e)
         {
-
             AbrirFormularioUnico<FormCadastrarIngrediente>();
         }
 
@@ -57,7 +53,6 @@ namespace CasodeUsoDonamaria
 
         private void cadastrarTipoDeReceitaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
         }
 
         private void consultarReceitaToolStripMenuItem_Click(object sender, EventArgs e)
