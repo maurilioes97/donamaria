@@ -11,7 +11,7 @@ namespace CasodeUsoDonamaria.Model
         /// <summary>
         /// Id sequencial de 0..n dos Tipos de cozinha.
         /// </summary>
-        public int Id { get; set; }
+        public int id { get; set; }
         
         /// <summary>
         /// Nome do tipo de cozinha
@@ -30,9 +30,50 @@ namespace CasodeUsoDonamaria.Model
         /// <returns>Lista dos tipos de cozinha cadastrados no sistema</returns>
         public static List<TipoCozinha> SelecionarTodos()
         {
-            return null;
+            return (from p in TipoCozinha.TipoCozinhas select p).ToList();
         }
 
+        public int Incluir()
+        {
+            if (TipoCozinhas.Count > 0)
+            {
+                this.id = TipoCozinhas.Last().id + 1;
+            }
+            else
+            {
+                this.id = 1;
+
+            }
+            TipoCozinhas.Add(this);
+            return this.id;
+        }
+
+        public static void Excluir(int id)
+        {
+            // Encontra o item na lista que corresponde ao ID
+            var itemParaExcluir = TipoCozinhas.FirstOrDefault(c => c.id == id);
+
+            // Se o item for encontrado, o remove da lista
+            if (itemParaExcluir != null)
+            {
+                TipoCozinhas.Remove(itemParaExcluir);
+            }
+        }
+
+        public static void Atualizar(TipoCozinha cozinhaAtualizada)
+        {
+            // Encontra o item na lista que corresponde ao ID do objeto atualizado
+            var itemOriginal = TipoCozinhas.FirstOrDefault(c => c.id == cozinhaAtualizada.id);
+
+            // Se o item for encontrado, atualiza as suas propriedades
+            if (itemOriginal != null)
+            {
+                itemOriginal.Nome = cozinhaAtualizada.Nome;
+                itemOriginal.Descricao = cozinhaAtualizada.Descricao;
+            }
+        }
+
+        public static List<TipoCozinha> TipoCozinhas;
         /// <summary>
         /// Lista de Receitas que estão contidas no tipo de cozinha.
         /// </summary>
