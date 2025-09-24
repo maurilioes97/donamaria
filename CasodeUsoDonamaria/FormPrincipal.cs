@@ -41,28 +41,32 @@ namespace CasodeUsoDonamaria
             AbrirFormularioUnico<FormCadastrarIngrediente>();
         }
 
-        private void cadastrarReceitaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void cadastroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void cadastrarReceitaToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             AbrirFormularioUnico<FormCadastrarReceita>();
         }
 
-        private void cadastrarCozinhaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void cadastrarCozinhaToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             AbrirFormularioUnico<FormCadastrarCozinha>();
         }
 
-        private void cadastrarTipoDeReceitaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void consultarReceitaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            AbrirFormularioUnico<FormConsultarReceita>();
-        }
-
-        private void detalhesDaReceitaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void consultarDetalhesReceitaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AbrirFormularioUnico<FormDetalhesReceitas>();
+        }
+
+        private void FormPrincipal_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void consltarReceitaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioUnico<FormConsultarReceita>();
         }
     }
 }

@@ -47,39 +47,39 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(26, 7);
+            label1.Location = new Point(23, 5);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(58, 20);
+            label1.Size = new Size(46, 15);
             label1.TabIndex = 0;
             label1.Text = "Código";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(227, 7);
+            label2.Location = new Point(199, 5);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(50, 20);
+            label2.Size = new Size(40, 15);
             label2.TabIndex = 1;
             label2.Text = "Nome";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(26, 69);
+            label3.Location = new Point(23, 52);
             label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(74, 20);
+            label3.Size = new Size(58, 15);
             label3.TabIndex = 2;
             label3.Text = "Descrição";
             // 
             // button1
             // 
-            button1.Location = new Point(26, 206);
+            button1.Location = new Point(23, 154);
             button1.Margin = new Padding(2);
             button1.Name = "button1";
-            button1.Size = new Size(90, 27);
+            button1.Size = new Size(79, 20);
             button1.TabIndex = 3;
             button1.Text = "Salvar";
             button1.UseVisualStyleBackColor = true;
@@ -88,28 +88,28 @@
             // TxtId
             // 
             TxtId.Enabled = false;
-            TxtId.Location = new Point(26, 30);
+            TxtId.Location = new Point(23, 22);
             TxtId.Margin = new Padding(2);
             TxtId.Name = "TxtId";
-            TxtId.Size = new Size(180, 27);
+            TxtId.Size = new Size(158, 23);
             TxtId.TabIndex = 4;
             // 
             // TxtNome
             // 
-            TxtNome.Location = new Point(227, 30);
+            TxtNome.Location = new Point(199, 22);
             TxtNome.Margin = new Padding(2);
             TxtNome.Name = "TxtNome";
-            TxtNome.Size = new Size(614, 27);
+            TxtNome.Size = new Size(538, 23);
             TxtNome.TabIndex = 5;
             // 
             // TxtDescricao
             // 
-            TxtDescricao.Location = new Point(26, 91);
+            TxtDescricao.Location = new Point(23, 68);
             TxtDescricao.Margin = new Padding(2);
             TxtDescricao.Multiline = true;
             TxtDescricao.Name = "TxtDescricao";
             TxtDescricao.ScrollBars = ScrollBars.Vertical;
-            TxtDescricao.Size = new Size(815, 110);
+            TxtDescricao.Size = new Size(714, 84);
             TxtDescricao.TabIndex = 6;
             // 
             // GrdItensIngrediente
@@ -118,11 +118,12 @@
             GrdItensIngrediente.AllowUserToDeleteRows = false;
             GrdItensIngrediente.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             GrdItensIngrediente.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, BtnAlterar, BtnExcluir });
-            GrdItensIngrediente.Location = new Point(10, 238);
+            GrdItensIngrediente.Location = new Point(9, 178);
             GrdItensIngrediente.Margin = new Padding(2);
             GrdItensIngrediente.Name = "GrdItensIngrediente";
+            GrdItensIngrediente.RowHeadersVisible = false;
             GrdItensIngrediente.RowHeadersWidth = 62;
-            GrdItensIngrediente.Size = new Size(875, 258);
+            GrdItensIngrediente.Size = new Size(766, 194);
             GrdItensIngrediente.TabIndex = 7;
             GrdItensIngrediente.CellClick += GrdItensIngrediente_CellClick;
             GrdItensIngrediente.CellContentClick += GrdItensIngrediente_CellContentClick;
@@ -167,9 +168,9 @@
             // 
             // FormCadastrarIngrediente
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(896, 507);
+            ClientSize = new Size(784, 380);
             Controls.Add(GrdItensIngrediente);
             Controls.Add(TxtDescricao);
             Controls.Add(TxtNome);

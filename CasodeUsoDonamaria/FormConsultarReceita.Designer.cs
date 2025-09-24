@@ -44,29 +44,29 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(20, 18);
+            label1.Location = new Point(18, 14);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(207, 20);
+            label1.Size = new Size(161, 15);
             label1.TabIndex = 0;
             label1.Text = "Critérios para localizar receita";
             // 
             // textBox1
             // 
             textBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            textBox1.Location = new Point(20, 41);
+            textBox1.Location = new Point(18, 31);
             textBox1.Margin = new Padding(2);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(1406, 27);
+            textBox1.Size = new Size(1231, 23);
             textBox1.TabIndex = 1;
             // 
             // button1
             // 
             button1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            button1.Location = new Point(20, 70);
+            button1.Location = new Point(18, 52);
             button1.Margin = new Padding(2);
             button1.Name = "button1";
-            button1.Size = new Size(1405, 33);
+            button1.Size = new Size(1229, 25);
             button1.TabIndex = 2;
             button1.Text = "Localizar receita";
             button1.UseVisualStyleBackColor = true;
@@ -76,11 +76,12 @@
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column3, nomedareceita, descricao, Column2, Column1 });
-            dataGridView1.Location = new Point(20, 117);
+            dataGridView1.Location = new Point(18, 88);
             dataGridView1.Margin = new Padding(2);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersVisible = false;
             dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(1406, 479);
+            dataGridView1.Size = new Size(1230, 359);
             dataGridView1.TabIndex = 3;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -126,9 +127,9 @@
             // 
             // FormConsultarReceita
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1449, 607);
+            ClientSize = new Size(1268, 455);
             Controls.Add(dataGridView1);
             Controls.Add(button1);
             Controls.Add(textBox1);

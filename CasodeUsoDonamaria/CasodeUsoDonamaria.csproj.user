@@ -4,9 +4,6 @@
     <Compile Update="FormCadastrarReceita.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="FormCadastrarIngrediente.cs">
       <SubType>Form</SubType>
     </Compile>
