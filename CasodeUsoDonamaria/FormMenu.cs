@@ -15,7 +15,7 @@ namespace CasodeUsoDonamaria
         public FormMenu()
         {
             InitializeComponent();
-            this.IsMdiContainer = true; // Torna o FormMenu um MDI container
+            this.IsMdiContainer = true;
 
         }
 
@@ -42,17 +42,32 @@ namespace CasodeUsoDonamaria
         private void cadastrarIngredienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-
+            AbrirFormularioUnico<FormCadastrarIngrediente>();
         }
 
         private void cadastrarReceitaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AbrirFormularioUnico<FormConsultarReceita>();
+            AbrirFormularioUnico<FormCadastrarReceita>();
         }
 
         private void cadastrarCozinhaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AbrirFormularioUnico<FormCadastrarCozinha>();
+        }
+
+        private void cadastrarTipoDeReceitaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void consultarReceitaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioUnico<FormConsultarReceita>();
+        }
+
+        private void detalhesDaReceitaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioUnico<FormDetalhesReceitas>();
         }
     }
 }

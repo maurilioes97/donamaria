@@ -30,12 +30,11 @@
         {
             menuStrip1 = new MenuStrip();
             cadastrarToolStripMenuItem = new ToolStripMenuItem();
-            cadastrarTipoDeReceitaToolStripMenuItem = new ToolStripMenuItem();
-            incluirToolStripMenuItem = new ToolStripMenuItem();
-            pesquisarToolStripMenuItem = new ToolStripMenuItem();
             cadastrarIngredienteToolStripMenuItem = new ToolStripMenuItem();
             cadastrarReceitaToolStripMenuItem = new ToolStripMenuItem();
             cadastrarCozinhaToolStripMenuItem = new ToolStripMenuItem();
+            consultarReceitaToolStripMenuItem = new ToolStripMenuItem();
+            detalhesDaReceitaToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -52,50 +51,45 @@
             // 
             // cadastrarToolStripMenuItem
             // 
-            cadastrarToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { cadastrarTipoDeReceitaToolStripMenuItem, cadastrarIngredienteToolStripMenuItem, cadastrarReceitaToolStripMenuItem, cadastrarCozinhaToolStripMenuItem });
+            cadastrarToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { cadastrarIngredienteToolStripMenuItem, cadastrarReceitaToolStripMenuItem, cadastrarCozinhaToolStripMenuItem, consultarReceitaToolStripMenuItem, detalhesDaReceitaToolStripMenuItem });
             cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
             cadastrarToolStripMenuItem.Size = new Size(50, 22);
             cadastrarToolStripMenuItem.Text = "Menu";
             // 
-            // cadastrarTipoDeReceitaToolStripMenuItem
-            // 
-            cadastrarTipoDeReceitaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { incluirToolStripMenuItem, pesquisarToolStripMenuItem });
-            cadastrarTipoDeReceitaToolStripMenuItem.Name = "cadastrarTipoDeReceitaToolStripMenuItem";
-            cadastrarTipoDeReceitaToolStripMenuItem.Size = new Size(208, 22);
-            cadastrarTipoDeReceitaToolStripMenuItem.Text = "Cadastrar Tipo de Receita";
-            // 
-            // incluirToolStripMenuItem
-            // 
-            incluirToolStripMenuItem.Name = "incluirToolStripMenuItem";
-            incluirToolStripMenuItem.Size = new Size(124, 22);
-            incluirToolStripMenuItem.Text = "Incluir";
-            // 
-            // pesquisarToolStripMenuItem
-            // 
-            pesquisarToolStripMenuItem.Name = "pesquisarToolStripMenuItem";
-            pesquisarToolStripMenuItem.Size = new Size(124, 22);
-            pesquisarToolStripMenuItem.Text = "Pesquisar";
-            // 
             // cadastrarIngredienteToolStripMenuItem
             // 
             cadastrarIngredienteToolStripMenuItem.Name = "cadastrarIngredienteToolStripMenuItem";
-            cadastrarIngredienteToolStripMenuItem.Size = new Size(208, 22);
+            cadastrarIngredienteToolStripMenuItem.Size = new Size(187, 22);
             cadastrarIngredienteToolStripMenuItem.Text = "Cadastrar Ingrediente";
             cadastrarIngredienteToolStripMenuItem.Click += cadastrarIngredienteToolStripMenuItem_Click;
             // 
             // cadastrarReceitaToolStripMenuItem
             // 
             cadastrarReceitaToolStripMenuItem.Name = "cadastrarReceitaToolStripMenuItem";
-            cadastrarReceitaToolStripMenuItem.Size = new Size(208, 22);
+            cadastrarReceitaToolStripMenuItem.Size = new Size(187, 22);
             cadastrarReceitaToolStripMenuItem.Text = "Cadastrar Receita";
             cadastrarReceitaToolStripMenuItem.Click += cadastrarReceitaToolStripMenuItem_Click;
             // 
             // cadastrarCozinhaToolStripMenuItem
             // 
             cadastrarCozinhaToolStripMenuItem.Name = "cadastrarCozinhaToolStripMenuItem";
-            cadastrarCozinhaToolStripMenuItem.Size = new Size(208, 22);
+            cadastrarCozinhaToolStripMenuItem.Size = new Size(187, 22);
             cadastrarCozinhaToolStripMenuItem.Text = "Cadastrar Cozinha";
             cadastrarCozinhaToolStripMenuItem.Click += cadastrarCozinhaToolStripMenuItem_Click;
+            // 
+            // consultarReceitaToolStripMenuItem
+            // 
+            consultarReceitaToolStripMenuItem.Name = "consultarReceitaToolStripMenuItem";
+            consultarReceitaToolStripMenuItem.Size = new Size(187, 22);
+            consultarReceitaToolStripMenuItem.Text = "Consultar Receita";
+            consultarReceitaToolStripMenuItem.Click += consultarReceitaToolStripMenuItem_Click;
+            // 
+            // detalhesDaReceitaToolStripMenuItem
+            // 
+            detalhesDaReceitaToolStripMenuItem.Name = "detalhesDaReceitaToolStripMenuItem";
+            detalhesDaReceitaToolStripMenuItem.Size = new Size(187, 22);
+            detalhesDaReceitaToolStripMenuItem.Text = "Detalhes da Receita";
+            detalhesDaReceitaToolStripMenuItem.Click += detalhesDaReceitaToolStripMenuItem_Click;
             // 
             // FormMenu
             // 
@@ -117,11 +111,10 @@
 
         private MenuStrip menuStrip1;
         private ToolStripMenuItem cadastrarToolStripMenuItem;
-        private ToolStripMenuItem cadastrarTipoDeReceitaToolStripMenuItem;
         private ToolStripMenuItem cadastrarIngredienteToolStripMenuItem;
         private ToolStripMenuItem cadastrarReceitaToolStripMenuItem;
-        private ToolStripMenuItem incluirToolStripMenuItem;
-        private ToolStripMenuItem pesquisarToolStripMenuItem;
         private ToolStripMenuItem cadastrarCozinhaToolStripMenuItem;
+        private ToolStripMenuItem consultarReceitaToolStripMenuItem;
+        private ToolStripMenuItem detalhesDaReceitaToolStripMenuItem;
     }
 }

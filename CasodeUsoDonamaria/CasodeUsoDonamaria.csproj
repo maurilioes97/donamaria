@@ -9,6 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="FormCadastrarReceita.csZone.Identifier" />
+    <None Remove="FormCadastrarReceita.Designer.csZone.Identifier" />
+    <None Remove="FormCadastrarReceita.resxZone.Identifier" />
+    <None Remove="FormCadastrarReceita1.csZone.Identifier" />
+    <None Remove="FormCadastrarReceita1.Designer.csZone.Identifier" />
+    <None Remove="FormCadastrarReceita1.resxZone.Identifier" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
