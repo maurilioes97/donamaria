@@ -130,7 +130,7 @@
             // 
             // Btn_imagem
             // 
-            Btn_imagem.Location = new Point(597, 286);
+            Btn_imagem.Location = new Point(602, 286);
             Btn_imagem.Margin = new Padding(2);
             Btn_imagem.Name = "Btn_imagem";
             Btn_imagem.Size = new Size(217, 28);
