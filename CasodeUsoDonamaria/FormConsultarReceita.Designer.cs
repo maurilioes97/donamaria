@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             LblLocalizar = new Label();
             TxtLocalizar = new TextBox();
             BtnLocalizar = new Button();
@@ -77,12 +78,20 @@
             GrdLocalizar.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             GrdLocalizar.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             GrdLocalizar.Columns.AddRange(new DataGridViewColumn[] { Imagem, nomedareceita, ModoPreparo, Ingredientes });
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.Window;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle1.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            GrdLocalizar.DefaultCellStyle = dataGridViewCellStyle1;
             GrdLocalizar.Location = new Point(11, 131);
             GrdLocalizar.Margin = new Padding(2, 3, 2, 3);
             GrdLocalizar.Name = "GrdLocalizar";
             GrdLocalizar.RowHeadersVisible = false;
             GrdLocalizar.RowHeadersWidth = 62;
-            GrdLocalizar.RowTemplate.Height = 500;
+            GrdLocalizar.RowTemplate.Height = 250;
             GrdLocalizar.Size = new Size(1416, 1416);
             GrdLocalizar.TabIndex = 3;
             // 
