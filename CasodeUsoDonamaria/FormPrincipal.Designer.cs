@@ -82,7 +82,7 @@
             // 
             consltarReceitaToolStripMenuItem.Name = "consltarReceitaToolStripMenuItem";
             consltarReceitaToolStripMenuItem.Size = new Size(241, 26);
-            consltarReceitaToolStripMenuItem.Text = "Consltar Receita";
+            consltarReceitaToolStripMenuItem.Text = "Consultar Receita";
             consltarReceitaToolStripMenuItem.Click += consltarReceitaToolStripMenuItem_Click;
             // 
             // FormPrincipal
