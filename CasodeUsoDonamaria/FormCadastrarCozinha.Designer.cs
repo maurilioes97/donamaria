@@ -108,6 +108,7 @@
             textBox1.Location = new Point(24, 34);
             textBox1.Margin = new Padding(2);
             textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
             textBox1.Size = new Size(106, 23);
             textBox1.TabIndex = 5;
             // 

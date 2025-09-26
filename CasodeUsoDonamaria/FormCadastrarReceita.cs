@@ -20,7 +20,8 @@ namespace CasodeUsoDonamaria
             InitializeComponent();
 
         }
-        private List<Receita> listaReceitas = new List<Receita>();
+        // Altere o modificador de acesso da listaReceitas de private para public static
+        public static List<Receita> listaReceitas = new List<Receita>();
 
         private string imagemSelecionada = "";
 

@@ -35,6 +35,7 @@
             cadastrarCozinhaToolStripMenuItem = new ToolStripMenuItem();
             consultarDetalhesReceitaToolStripMenuItem = new ToolStripMenuItem();
             consltarReceitaToolStripMenuItem = new ToolStripMenuItem();
+            formualarioExtraToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -51,7 +52,7 @@
             // 
             // cadastroToolStripMenuItem
             // 
-            cadastroToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { MnuIngredientes, cadastrarReceitaToolStripMenuItem, cadastrarCozinhaToolStripMenuItem, consultarDetalhesReceitaToolStripMenuItem, consltarReceitaToolStripMenuItem });
+            cadastroToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { MnuIngredientes, cadastrarReceitaToolStripMenuItem, cadastrarCozinhaToolStripMenuItem, consultarDetalhesReceitaToolStripMenuItem, consltarReceitaToolStripMenuItem, formualarioExtraToolStripMenuItem });
             cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
             cadastroToolStripMenuItem.Size = new Size(66, 20);
             cadastroToolStripMenuItem.Text = "&Cadastro";
@@ -93,6 +94,13 @@
             consltarReceitaToolStripMenuItem.Text = "Consltar Receita";
             consltarReceitaToolStripMenuItem.Click += consltarReceitaToolStripMenuItem_Click;
             // 
+            // formualarioExtraToolStripMenuItem
+            // 
+            formualarioExtraToolStripMenuItem.Name = "formualarioExtraToolStripMenuItem";
+            formualarioExtraToolStripMenuItem.Size = new Size(214, 22);
+            formualarioExtraToolStripMenuItem.Text = "Cadastro de Cardapio";
+            formualarioExtraToolStripMenuItem.Click += formualarioExtraToolStripMenuItem_Click;
+            // 
             // FormPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -123,5 +131,6 @@
         private ToolStripMenuItem consultarDetalhesReceitaToolStripMenuItem;
         private ToolStripMenuItem cadastrarReceitaToolStripMenuItem1;
         private ToolStripMenuItem consltarReceitaToolStripMenuItem;
+        private ToolStripMenuItem formualarioExtraToolStripMenuItem;
     }
 }

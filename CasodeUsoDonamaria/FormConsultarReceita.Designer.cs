@@ -29,129 +29,135 @@
         private void InitializeComponent()
         {
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            label1 = new Label();
-            textBox1 = new TextBox();
-            button1 = new Button();
-            dataGridView1 = new DataGridView();
-            Column3 = new DataGridViewTextBoxColumn();
+            LblLocalizar = new Label();
+            TxtLocalizar = new TextBox();
+            BtnLocalizar = new Button();
+            GrdLocalizar = new DataGridView();
+            Imagem = new DataGridViewImageColumn();
             nomedareceita = new DataGridViewTextBoxColumn();
-            descricao = new DataGridViewTextBoxColumn();
-            Column2 = new DataGridViewButtonColumn();
-            Column1 = new DataGridViewButtonColumn();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ModoPreparo = new DataGridViewTextBoxColumn();
+            Ingredientes = new DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)GrdLocalizar).BeginInit();
             SuspendLayout();
             // 
-            // label1
+            // LblLocalizar
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(18, 14);
-            label1.Margin = new Padding(2, 0, 2, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(161, 15);
-            label1.TabIndex = 0;
-            label1.Text = "Critérios para localizar receita";
+            LblLocalizar.AutoSize = true;
+            LblLocalizar.Location = new Point(18, 14);
+            LblLocalizar.Margin = new Padding(2, 0, 2, 0);
+            LblLocalizar.Name = "LblLocalizar";
+            LblLocalizar.Size = new Size(161, 15);
+            LblLocalizar.TabIndex = 0;
+            LblLocalizar.Text = "Critérios para localizar receita";
             // 
-            // textBox1
+            // TxtLocalizar
             // 
-            textBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            textBox1.Location = new Point(18, 31);
-            textBox1.Margin = new Padding(2);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(1231, 23);
-            textBox1.TabIndex = 1;
+            TxtLocalizar.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            TxtLocalizar.Location = new Point(18, 31);
+            TxtLocalizar.Margin = new Padding(2, 2, 2, 2);
+            TxtLocalizar.Name = "TxtLocalizar";
+            TxtLocalizar.Size = new Size(1231, 23);
+            TxtLocalizar.TabIndex = 1;
             // 
-            // button1
+            // BtnLocalizar
             // 
-            button1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            button1.Location = new Point(18, 52);
-            button1.Margin = new Padding(2);
-            button1.Name = "button1";
-            button1.Size = new Size(1229, 25);
-            button1.TabIndex = 2;
-            button1.Text = "Localizar receita";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            BtnLocalizar.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            BtnLocalizar.Location = new Point(18, 69);
+            BtnLocalizar.Margin = new Padding(2, 2, 2, 2);
+            BtnLocalizar.Name = "BtnLocalizar";
+            BtnLocalizar.Size = new Size(1229, 25);
+            BtnLocalizar.TabIndex = 2;
+            BtnLocalizar.Text = "Localizar receita";
+            BtnLocalizar.UseVisualStyleBackColor = true;
+            BtnLocalizar.Click += BtnLocalizar_Click;
             // 
-            // dataGridView1
+            // GrdLocalizar
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column3, nomedareceita, descricao, Column2, Column1 });
-            dataGridView1.Location = new Point(18, 88);
-            dataGridView1.Margin = new Padding(2);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersVisible = false;
-            dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(1230, 359);
-            dataGridView1.TabIndex = 3;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            GrdLocalizar.AllowUserToAddRows = false;
+            GrdLocalizar.AllowUserToDeleteRows = false;
+            GrdLocalizar.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            GrdLocalizar.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            GrdLocalizar.Columns.AddRange(new DataGridViewColumn[] { Imagem, nomedareceita, ModoPreparo, Ingredientes });
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.Window;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle1.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            GrdLocalizar.DefaultCellStyle = dataGridViewCellStyle1;
+            GrdLocalizar.Location = new Point(10, 117);
+            GrdLocalizar.Margin = new Padding(2, 2, 2, 2);
+            GrdLocalizar.Name = "GrdLocalizar";
+            GrdLocalizar.RowHeadersVisible = false;
+            GrdLocalizar.RowHeadersWidth = 62;
+            GrdLocalizar.RowTemplate.Height = 250;
+            GrdLocalizar.Size = new Size(1239, 1043);
+            GrdLocalizar.TabIndex = 3;
             // 
-            // Column3
+            // Imagem
             // 
-            Column3.HeaderText = "Foto";
-            Column3.MinimumWidth = 6;
-            Column3.Name = "Column3";
-            Column3.Width = 125;
+            Imagem.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Imagem.DataPropertyName = "Imagem";
+            Imagem.FillWeight = 200F;
+            Imagem.HeaderText = "Imagem";
+            Imagem.ImageLayout = DataGridViewImageCellLayout.Zoom;
+            Imagem.MinimumWidth = 60;
+            Imagem.Name = "Imagem";
+            Imagem.Resizable = DataGridViewTriState.True;
             // 
             // nomedareceita
             // 
+            nomedareceita.DataPropertyName = "Nome";
             nomedareceita.HeaderText = "Nome da receita";
             nomedareceita.MinimumWidth = 8;
             nomedareceita.Name = "nomedareceita";
-            nomedareceita.Width = 200;
+            nomedareceita.Width = 400;
             // 
-            // descricao
+            // ModoPreparo
             // 
-            descricao.HeaderText = "Descrição";
-            descricao.MinimumWidth = 8;
-            descricao.Name = "descricao";
-            descricao.Width = 400;
+            ModoPreparo.DataPropertyName = "ModoPreparo";
+            ModoPreparo.HeaderText = "Modo de preparo";
+            ModoPreparo.MinimumWidth = 8;
+            ModoPreparo.Name = "ModoPreparo";
+            ModoPreparo.Width = 500;
             // 
-            // Column2
+            // Ingredientes
             // 
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = Color.Silver;
-            Column2.DefaultCellStyle = dataGridViewCellStyle1;
-            Column2.HeaderText = "Alterar";
-            Column2.MinimumWidth = 8;
-            Column2.Name = "Column2";
-            Column2.Resizable = DataGridViewTriState.True;
-            Column2.SortMode = DataGridViewColumnSortMode.Automatic;
-            Column2.Width = 150;
-            // 
-            // Column1
-            // 
-            Column1.HeaderText = "Excluir";
-            Column1.MinimumWidth = 8;
-            Column1.Name = "Column1";
-            Column1.Width = 150;
+            Ingredientes.DataPropertyName = "Ingredientes";
+            Ingredientes.HeaderText = "Ingredientes";
+            Ingredientes.MinimumWidth = 6;
+            Ingredientes.Name = "Ingredientes";
+            Ingredientes.Width = 400;
             // 
             // FormConsultarReceita
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1268, 455);
-            Controls.Add(dataGridView1);
-            Controls.Add(button1);
-            Controls.Add(textBox1);
-            Controls.Add(label1);
-            Margin = new Padding(2);
+            ClientSize = new Size(1268, 565);
+            Controls.Add(GrdLocalizar);
+            Controls.Add(BtnLocalizar);
+            Controls.Add(TxtLocalizar);
+            Controls.Add(LblLocalizar);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "FormConsultarReceita";
             Text = "Consultar receitas";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            WindowState = FormWindowState.Maximized;
+            Load += FormConsultarReceita_Load;
+            ((System.ComponentModel.ISupportInitialize)GrdLocalizar).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
-        private TextBox textBox1;
-        private Button button1;
-        private DataGridView dataGridView1;
-        private DataGridViewTextBoxColumn Column3;
+        private Label LblLocalizar;
+        private TextBox TxtLocalizar;
+        private Button BtnLocalizar;
+        private DataGridView GrdLocalizar;
+        private DataGridViewImageColumn Imagem;
         private DataGridViewTextBoxColumn nomedareceita;
-        private DataGridViewTextBoxColumn descricao;
-        private DataGridViewButtonColumn Column2;
-        private DataGridViewButtonColumn Column1;
+        private DataGridViewTextBoxColumn ModoPreparo;
+        private DataGridViewTextBoxColumn Ingredientes;
     }
 }

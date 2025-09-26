@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using FormExtra;
 
 namespace CasodeUsoDonamaria
 {
@@ -67,6 +68,11 @@ namespace CasodeUsoDonamaria
         private void consltarReceitaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AbrirFormularioUnico<FormConsultarReceita>();
+        }
+
+        private void formualarioExtraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioUnico<FormCardapio>();
         }
     }
 }
